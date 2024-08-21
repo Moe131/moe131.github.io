@@ -6,7 +6,7 @@ export default function Experience() {
             <h1 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">Experiences</h1>
             <div className="space-y-8 max-w-screen-xl mx-auto">
                 <ExperienceCard
-                    title="Full Stack Software Developer Intern"
+                    title="Full Stack Developer Intern"
                     company="Mondego Research Lab, University of California, Irvine"
                     location="Irvine, CA"
                     dateRange="June 2024 - August 2024"
@@ -18,6 +18,21 @@ export default function Experience() {
                         "Configured full-stack functionality to store user data and conversations in an SQLite database"
                     ]}
                 />
+
+                <ExperienceCard
+                    title="Software Developer Intern"
+                    company="Sepideh Zayandehrood Electrics, Esfahan, Iran"
+                    location="Remote"
+                    dateRange="June 2023 - August 2023"
+                    responsibilities={[
+                        "Collaborated with the senior developer to design and implement a PostgreSQL database to handle customer data and order processing.",
+                        "Created a UI admin panel using TypeScript , Next.js , Tailwind to allow management of customer orders",
+                        "Built API endpoints using Node.js and Express framework to connect the frontend with the database",
+                        "Successfully transferred data from 40,000 customers into the new database system",
+                        "The new ordering system reduced the company’s order processing time by 40%."
+                    ]}
+                />
+
                 <ExperienceCard
                     title="Website Developer"
                     company="Tournex Crypto Project"

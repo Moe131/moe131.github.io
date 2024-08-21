@@ -6,7 +6,7 @@ interface ExperienceCardProps {
     responsibilities: string[]
 }
 
-const skills: string[] = ["React", "ReactJS", "React Native", "Next.js", "TypeScript", "JavaScript", "Faiss", "Python", "NextAuth", "SQLite", "APIs", "NextAuth", "LLMs", "UX/UI"]
+const skills: string[] = ["React", "ReactJS", "React Native", "Next.js", "TypeScript", "JavaScript", "Faiss", "Python", "NextAuth", "SQLite", "APIs", "NextAuth", "LLMs", "UX/UI","PostgreSQL", "Node.js", "Express", "Tailwind", "API"]
 
 export default function ExperienceCard(props: ExperienceCardProps) {
     return (

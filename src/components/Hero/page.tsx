@@ -50,7 +50,7 @@ export default function Hero() {
                 on exciting opportunities. Feel free to <Link className="underline text-sky-600 dark:text-cyan-400" href="/contact">contact me</Link> for collaboration!
 
                 </p>
-                <a href="./src/assets/resume.pdf" download>
+                <a href="https://drive.google.com/file/d/1zUf_oMwR_WEdRRDSKvaIfDqn3dccbKjQ/view?usp=sharing" target="_blank">
                     <button className="mt-4 md:mt-6 px-6 py-2 bg-sky-600 text-white font-semibold rounded-lg hover:bg-blue-800 dark:bg-cyan-600 dark:hover:bg-sky-700">
                     Download Resume
                     </button>
