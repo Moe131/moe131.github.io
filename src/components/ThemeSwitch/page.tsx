@@ -3,6 +3,7 @@ import { useTheme } from 'next-themes'
 import lightIcon from "../../assets/light-icon.svg"
 import darkIcon from "../../assets/dark-icon.svg"
 import Image from 'next/image'
+import Spinner from '../spinner/pages'
 
 const ThemeSwitch = ({}) => {
   const [mounted, setMounted] = useState(false)
@@ -14,7 +15,7 @@ const ThemeSwitch = ({}) => {
   }, [])
 
   if (!mounted) {
-    return null
+    return <Spinner />
   }
 
   return (
