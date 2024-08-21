@@ -17,19 +17,18 @@ const ThemeSwitch = ({}) => {
   if (!mounted) {
     return (
       <button  className="flex gap-1 items-center md:order-3" >
-      <Image src={darkIcon} className="hidden w-6 h-6 md:w-8 md:h-8 dark:block" alt="Color mode icon" />
-      <Image src={lightIcon} className=" w-6 h-6 md:w-8 md:h-8 dark:hidden" alt="Color mode icon" />
-
-      <p className="text-sm md:text-base dark:text-white">Light Mode</p>
-    </button>
+        <Image src={darkIcon} className="hidden w-6 h-6 dark:block" alt="Color mode icon" />
+        <Image src={lightIcon} className="w-6 h-6 dark:hidden" alt="Color mode icon" />
+        <p className="text-sm md:text-base dark:text-white">Light Mode</p>
+      </button>
     )
 
   }
 
   return (
     <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className="flex gap-1 items-center md:order-3" >
-      <Image src={darkIcon} className="hidden w-6 h-6 md:w-8 md:h-8 dark:block" alt="Color mode icon" />
-      <Image src={lightIcon} className=" w-6 h-6 md:w-8 md:h-8 dark:hidden" alt="Color mode icon" />
+      <Image src={darkIcon} className="hidden w-6 h-6  dark:block" alt="Color mode icon" />
+      <Image src={lightIcon} className=" w-6 h-6  dark:hidden" alt="Color mode icon" />
 
       <p className="text-sm md:text-base dark:text-white">Light Mode</p>
     </button>

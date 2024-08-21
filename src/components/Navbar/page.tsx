@@ -6,15 +6,19 @@ import Image from "next/image"
 import { useTheme } from "next-themes"
 import ThemeSwitch from "../ThemeSwitch/page"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 
 export default function Navbar(){
-
   const [menuChecked, setMenuChecked] = useState(true)
+  const currentPath = usePathname();
 
   function toggleMenu(){
     setMenuChecked(!menuChecked)
   }
+  function handleLinkClick() {
+    setMenuChecked(true);
+}
 
   return(
   <nav className="bg-gray-100 border-gray-800 dark:bg-gray-900 md:py-4">
@@ -30,18 +34,18 @@ export default function Navbar(){
           </svg>
         </button>
         <div className={menuChecked? "hidden w-full md:block md:w-auto" : "w-full md:block md:w-auto"} id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray rounded-lg bg-gray-100 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul onClick={handleLinkClick} className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray rounded-lg bg-gray-100 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <Link href="/" className="block py-2 px-3 text-white bg-sky-700 rounded md:bg-transparent md:text-sky-600 md:p-0 dark:text-white md:dark:text-cyan-400" aria-current="page">Home</Link>
+              <Link href="/" className={"block py-2 px-3 " + (currentPath === "/" ? "text-white bg-sky-700" : "") +" rounded md:bg-transparent md:text-sky-600 md:p-0 dark:text-white md:dark:text-cyan-400"} aria-current="page">Home</Link>
             </li>
             <li>
-              <Link href="experiences" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 md:p-0 dark:text-white md:dark:hover:text-cyan-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Experiences</Link>
+              <Link href="experiences" className={"block py-2 px-3 " + (currentPath === "/experiences" ? "text-white bg-sky-700" : "") +" rounded md:bg-transparent md:text-sky-600 md:p-0 dark:text-white md:dark:text-cyan-400"} aria-current="page">Experiences</Link>
             </li>
             <li>
-              <Link href="/projects" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 md:p-0 dark:text-white md:dark:hover:text-cyan-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</Link>
+              <Link href="/projects" className={"block py-2 px-3 " + (currentPath === "/projects" ? "text-white bg-sky-700" : "") +" rounded md:bg-transparent md:text-sky-600 md:p-0 dark:text-white md:dark:text-cyan-400"} aria-current="page">Projects</Link>
             </li>
             <li>
-              <Link href="/contact" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 md:p-0 dark:text-white md:dark:hover:text-cyan-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</Link>
+              <Link href="/contact" className={"block py-2 px-3 " + (currentPath === "/contact" ? "text-white bg-sky-700" : "") +" rounded md:bg-transparent md:text-sky-600 md:p-0 dark:text-white md:dark:text-cyan-400"} aria-current="page">Contact</Link>
             </li>
           </ul>
         </div>
