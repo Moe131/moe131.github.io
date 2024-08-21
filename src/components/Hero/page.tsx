@@ -9,6 +9,7 @@ import darkgithubIcon from '../../assets/github-dark.svg'
 import darklinkedinIcon from '../../assets/linkedin-dark.svg'
 import Image from "next/image"
 import { useTheme } from "next-themes"
+import Link from "next/link"
 
 export default function Hero() {
     const { theme, setTheme } = useTheme()
@@ -46,7 +47,7 @@ export default function Hero() {
                 I am Mohammad Mirzaei, a dedicated Computer Science student at the University of California, Irvine, 
                 with a strong track record of academic achievements. With over 8 years of coding experience, 
                 and having gained valuable experience through various internships and projects, I'm ready to work 
-                on exciting opportunities. Feel free to <a className="underline text-sky-600 dark:text-cyan-400" href="/contact">contact me</a> for collaboration!
+                on exciting opportunities. Feel free to <Link className="underline text-sky-600 dark:text-cyan-400" href="/contact">contact me</Link> for collaboration!
 
                 </p>
                 <a href="./src/assets/resume.pdf" download>
