@@ -12,7 +12,7 @@ interface ProjectCardProps {
 export default function ProjectCard(props: ProjectCardProps) {
     return (
         <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col justify-between h-full">
-            <a href={props.demoLink} target="_blank" className="block">
+            <a href={props.githubLink} target="_blank" className="block">
                 <Image className="rounded-lg w-full h-48 object-cover" src={props.image} alt={`${props.title} logo`} />
             </a>
             <div className="flex-grow">
