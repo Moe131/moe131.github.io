@@ -14,13 +14,13 @@ export default function Hero() {
     const { theme, setTheme } = useTheme()
 
     return (
-        <section id="hero" className="flex flex-col md:flex-row items-center justify-center md:gap-20 bg-gray-100 dark:bg-gray-900 p-6 md:p-12">
-            <div className="w-56 h-56 md:w-80 md:h-80 md:min-w-56 mb-6 md:mb-0">
+        <section id="hero" className="self-auto flex flex-col md:flex-row items-center justify-center md:gap-14 bg-gray-100 dark:bg-gray-900 p-6 md:p-10 lg:p-20">
+            <div className="w-56 h-56 md:w-80 md:h-80 md:min-w-72 mb-6 md:mb-0">
                 <Image className="rounded-full object-cover shadow-lg" src={heroImg} alt="Mohammad Mirzaei Profile Picture" />
              </div>
             <div className="text-center md:text-left space-y-4 md:space-y-6">
                 <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
-                    Mohammad <br /> Mirzaei
+                    Mohammad Mirzaei
                 </h1>
                 <h2 className="text-2xl md:text-3xl text-sky-600 dark:text-cyan-400">
                     Software Developer Intern
@@ -41,8 +41,13 @@ export default function Hero() {
 
                     </a>
                 </div>
-                <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300">
-                    I'm a passionate Computer Science Student at University of California, Irvine.
+                <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-">
+                
+                I am Mohammad Mirzaei, a dedicated Computer Science student at the University of California, Irvine, 
+                with a strong track record of academic achievements. With over 8 years of coding experience, 
+                and having gained valuable experience through various internships and projects, I'm ready to work 
+                on exciting opportunities. Feel free to <a className="underline text-sky-600 dark:text-cyan-400" href="/contact">contact me</a> for collaboration!
+
                 </p>
                 <a href="./src/assets/resume.pdf" download>
                     <button className="mt-4 md:mt-6 px-6 py-2 bg-sky-600 text-white font-semibold rounded-lg hover:bg-blue-800 dark:bg-cyan-600 dark:hover:bg-sky-700">
