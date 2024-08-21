@@ -14,7 +14,7 @@ export default function ExperienceCard(props: ExperienceCardProps) {
             <h2 className="text-xl md:text-3xl font-bold text-gray-900 dark:text-white">{props.title}</h2>
             <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mt-2">{props.company} </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{props.dateRange} | {props.location}</p>
-            <ul className="text-base list-disc list-inside mt-4 text-gray-700 dark:text-gray-300 space-y-2">
+            <ul className="text-sm md:text-base list-disc list-inside mt-4 text-gray-700 dark:text-gray-300 space-y-2">
                 {props.responsibilities.map((responsibility, index) => (
                     <li key={index}>
                         {responsibility.split(" ").map((word, idx) => {
