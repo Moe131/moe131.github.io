@@ -15,19 +15,19 @@ const ThemeSwitch = ({}) => {
   }, [])
 
   if (!mounted) {
-    return <Spinner />
+    return (
+      <div className='md:order-3'>
+           <Spinner />
+      </div>
+    )
+
   }
 
   return (
     <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className="flex gap-1 items-center md:order-3" >
-    { 
-      theme === "dark" ?
-      <Image src={darkIcon} className="h-5 w-5" alt="Color mode icon" />
-      :
-      <Image src={lightIcon} className="h-5 w-5" alt="Color mode icon" />
-    }
-    <p className="text-sm md:text-base dark:text-white">Light Mode</p>
-</button>
+      <Image src={theme === "dark" ? darkIcon: lightIcon} className="h-5 w-5" alt="Color mode icon" />
+      <p className="text-sm md:text-base dark:text-white">Light Mode</p>
+    </button>
   )
 }
 

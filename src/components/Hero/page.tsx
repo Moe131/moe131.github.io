@@ -26,21 +26,26 @@ export default function Hero() {
                     Software Developer Intern
                 </h2>
                 <div className="flex justify-center md:justify-start space-x-6 mt-4">
-                    <a href="{data.twitterlink}" target="_blank">
-                        <Image className="w-6 h-6 md:w-8 md:h-8" src={darktwitterIcon} alt="Twitter icon" />
+                    <a href="https://x.com" target="_blank">
+                        <Image className="hidden w-6 h-6 md:w-8 md:h-8 dark:block" src={darktwitterIcon} alt="Twitter icon" />
+                        <Image className=" w-6 h-6 md:w-8 md:h-8 dark:hidden" src={lighttwitterIcon} alt="Twitter icon" />
+
                     </a>
-                    <a href="{data.githublink}" target="_blank">
-                        <Image className="w-6 h-6 md:w-8 md:h-8" src={darkgithubIcon} alt="Github icon" />
+                    <a href="https://github.com/Moe131" target="_blank">
+                        <Image className="hidden w-6 h-6 md:w-8 md:h-8 dark:block" src={darkgithubIcon} alt="Github icon" />
+                        <Image className=" w-6 h-6 md:w-8 md:h-8 dark:hidden" src={lightgithubIcon} alt="Github icon" />
                     </a>
-                    <a href="{data.linkedinlink}" target="_blank">
-                        <Image className="w-6 h-6 md:w-8 md:h-8" src={darklinkedinIcon} alt="LinkedIn icon" />
+                    <a href="https://www.linkedin.com/in/moemirzaei" target="_blank">
+                        <Image className="hidden w-6 h-6 md:w-8 md:h-8 dark:block" src={darklinkedinIcon} alt="LinkedIn icon" />
+                        <Image className=" w-6 h-6 md:w-8 md:h-8 dark:hidden" src={lightlinkedinIcon} alt="LinkedIn icon" />
+
                     </a>
                 </div>
                 <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300">
                     I'm a passionate Computer Science Student at University of California, Irvine.
                 </p>
-                <a href="resume-link" download>
-                    <button className="mt-4 md:mt-6 px-6 py-2 bg-sky-600 text-white font-semibold rounded-lg hover:bg-blue-800 dark:bg-cyan-600 dark:hover:bg-blue-600">
+                <a href="./src/assets/resume.pdf" download>
+                    <button className="mt-4 md:mt-6 px-6 py-2 bg-sky-600 text-white font-semibold rounded-lg hover:bg-blue-800 dark:bg-cyan-600 dark:hover:bg-sky-700">
                     Download Resume
                     </button>
                 </a>
