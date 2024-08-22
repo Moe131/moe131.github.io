@@ -21,7 +21,7 @@ export default function Experience() {
 
                 <ExperienceCard
                     title="Software Developer Intern"
-                    company="Sepideh Zayandehrood Electrics, Esfahan, Iran"
+                    company="Sepideh Zayandehrood Electrics, Isfahan, Iran"
                     location="Remote"
                     dateRange="June 2023 - August 2023"
                     responsibilities={[
