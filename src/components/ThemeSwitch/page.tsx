@@ -19,7 +19,7 @@ const ThemeSwitch = ({}) => {
       <button  className="flex gap-1 items-center md:order-3" >
         <Image src={darkIcon} className="hidden w-6 h-6 dark:block" alt="Color mode icon" />
         <Image src={lightIcon} className="w-6 h-6 dark:hidden" alt="Color mode icon" />
-        <p className="text-sm md:text-base dark:text-white">Light Mode</p>
+        <p className="text-sm md:text-base text-black dark:text-white">Light Mode</p>
       </button>
     )
 
@@ -30,7 +30,7 @@ const ThemeSwitch = ({}) => {
       <Image src={darkIcon} className="hidden w-6 h-6  dark:block" alt="Color mode icon" />
       <Image src={lightIcon} className=" w-6 h-6  dark:hidden" alt="Color mode icon" />
 
-      <p className="text-sm md:text-base dark:text-white">Light Mode</p>
+      <p className="text-sm md:text-base text-black dark:text-white">Light Mode</p>
     </button>
   )
 }
