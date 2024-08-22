@@ -46,7 +46,7 @@ export default function Hero() {
                 
                 I am Mohammad Mirzaei, a dedicated Computer Science student at the University of California, Irvine, 
                 with a strong track record of academic achievements. With over 8 years of coding experience, 
-                and having gained valuable experience through various internships and projects, I'm ready to work 
+                and having gained valuable experience through various internships and projects, I&apos;m ready to work 
                 on exciting opportunities. Feel free to <Link className="underline text-sky-600 dark:text-cyan-400" href="/contact">contact me</Link> for collaboration!
 
                 </p>
