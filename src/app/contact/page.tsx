@@ -58,7 +58,7 @@ export default function Contact() {
                             value={formData.name}
                             onChange={handleChange}
                             required
-                            className="mt-1 block w-full p-3 bg-gray-50	 border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 focus:ring-sky-600 focus:border-sky-600"
+                            className="mt-1 block w-full p-3 bg-gray-50	text-black border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 focus:ring-sky-600 focus:border-sky-600"
                         />
                     </div>
 
@@ -71,7 +71,7 @@ export default function Contact() {
                             value={formData.email}
                             onChange={handleChange}
                             required
-                            className="mt-1 block w-full p-3 bg-gray-50	border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 focus:ring-sky-600 focus:border-sky-600"
+                            className="mt-1 block w-full p-3 bg-gray-50	text-black border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 focus:ring-sky-600 focus:border-sky-600"
                         />
                     </div>
 
@@ -84,7 +84,7 @@ export default function Contact() {
                             value={formData.subject}
                             onChange={handleChange}
                             required
-                            className="mt-1 block w-full p-3 bg-gray-50	border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 focus:ring-sky-600 focus:border-sky-600"
+                            className="mt-1 block w-full p-3 bg-gray-50	text-black border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 focus:ring-sky-600 focus:border-sky-600"
                         />
                     </div>
 
@@ -97,7 +97,7 @@ export default function Contact() {
                             value={formData.message}
                             onChange={handleChange}
                             required
-                            className="mt-1 block w-full p-3 bg-gray-50	border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 focus:ring-sky-600 focus:border-sky-600"
+                            className="mt-1 block w-full p-3 bg-gray-50	text-black border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 focus:ring-sky-600 focus:border-sky-600"
                         ></textarea>
                     </div>
 
