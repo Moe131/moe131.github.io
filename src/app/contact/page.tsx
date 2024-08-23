@@ -4,6 +4,8 @@ import LightMailIcon from "../../assets/email-light.png"
 import DarkMailIcon from "../../assets/email-dark.png"
 import Image from 'next/image';
 import { useTheme } from 'next-themes';
+import emailjs from '@emailjs/browser';
+
 
 
 export default function Contact() {
@@ -15,15 +17,42 @@ export default function Contact() {
         message: ''
     });
 
+    const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string
+    const TEMPLATE_ID =process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string
+    const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string
+
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
     const handleSubmit = (e: React.FormEvent) => {
+        const email = {
+            from_name : formData.name,
+            from_email : formData.email,
+            to_name : "Mohammad Mirzaei",
+            subject : formData.subject,
+            message : formData.message
+
+        }
         e.preventDefault();
-        // Here you would typically handle form submission, such as sending the data to a server
-        console.log(formData);
-        alert('Form submitted successfully!');
+        emailjs.send( SERVICE_ID , TEMPLATE_ID , email, {
+            publicKey: PUBLIC_KEY,
+          })
+        .then(
+            () => {
+              alert('Form submitted successfully!');
+              setFormData({
+                name: '',
+                email: '',
+                subject: '',
+                message: ''
+            })
+
+            },
+        (error) => {
+              alert('Error occured when submitting the form. Please try again!');
+            },
+          );
     };
 
     return (
