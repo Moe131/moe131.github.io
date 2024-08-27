@@ -16,21 +16,21 @@ const ThemeSwitch = ({}) => {
 
   if (!mounted) {
     return (
-      <button  className="flex gap-1 items-center md:order-3" >
+      <button  className="flex gap-1 items-center" >
         <Image src={darkIcon} className="hidden w-6 h-6 dark:block" alt="Color mode icon" />
         <Image src={lightIcon} className="w-6 h-6 dark:hidden" alt="Color mode icon" />
-        <p className="text-sm md:text-base text-black dark:text-white">Light Mode</p>
+        <p className="text-sm md:text-base text-black dark:text-white"></p>
       </button>
     )
 
   }
 
   return (
-    <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className="flex gap-1 items-center md:order-3" >
+    <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className="flex gap-1 items-center" >
       <Image src={darkIcon} className="hidden w-6 h-6  dark:block" alt="Color mode icon" />
       <Image src={lightIcon} className=" w-6 h-6  dark:hidden" alt="Color mode icon" />
 
-      <p className="text-sm md:text-base text-black dark:text-white">Light Mode</p>
+      <p className="text-sm md:text-base text-black dark:text-white"></p>
     </button>
   )
 }
