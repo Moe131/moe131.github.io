@@ -11,11 +11,11 @@ export default function Experience() {
                     location="Irvine, CA"
                     dateRange="June 2024 - August 2024"
                     responsibilities={[
+                        "Developed login functionality for the app with Google/GitHub authentication using Next.js , TypeScript , and NextAuth",
+                        "Configured full-stack functionality to store user data and conversations in an SQLite database",
                         "Utilized LLMs and Retrieval-Augmented Generation to develop specialized AI Immigration and Tax assistants",
                         "Crawled more than 30,000 IRS website pages and 6,000 USCIS website pages and stored their data",
                         "Worked on the backend to index documents, generate embeddings, and store them in the vector database using Faiss",
-                        "Worked on frontend development using Next.js and TypeScript , including developing login functionality with Google/GitHub authentication via NextAuth",
-                        "Configured full-stack functionality to store user data and conversations in an SQLite database"
                     ]}
                 />
 
