@@ -51,7 +51,7 @@ export default function Hero() {
 
                 </p>
                 <a href="https://drive.google.com/file/d/1ZEqZUEt-spYrgeRoxzZwIRQfZPrzCNeP/view?usp=sharing" target="_blank">
-                    <button className="mt-4 md:mt-6 px-6 py-2 bg-sky-600 text-white font-semibold rounded-lg hover:bg-blue-800 dark:bg-cyan-600 dark:hover:bg-sky-700">
+                    <button className="mt-4 md:mt-6 px-6 py-2 bg-sky-600 text-white font-semibold rounded-lg hover:bg-sky-700 dark:bg-cyan-600 dark:hover:bg-sky-700">
                     Download Resume
                     </button>
                 </a>
