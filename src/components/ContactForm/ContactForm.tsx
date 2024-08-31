@@ -101,7 +101,7 @@ export default function ContactForm() {
       {/* Success message */}
       {isSubmitted && (
         <div className="mt-6 text-center text-green-600 dark:text-green-400">
-          Thank you! Your message has been successfully sent. We'll get back to you shortly.
+          Thank you! Your message has been successfully sent. We&apos;ll get back to you shortly.
         </div>
       )}
     </div>
