@@ -41,6 +41,9 @@ export default function Navbar(){
               <Link href="/" className={"block py-2 px-3 " + (currentPath === "/" ? "text-white  bg-sky-700  md:text-sky-700 md:dark:text-cyan-400" : "text-black dark:text-white ") +" rounded md:bg-transparent md:p-0 "} aria-current="page">Home</Link>
             </li>
             <li>
+              <Link href="education" className={"block py-2 px-3 " + (currentPath === "/education" ? "text-white  bg-sky-700  md:text-sky-700 md:dark:text-cyan-400" : "text-black dark:text-white ") +" rounded md:bg-transparent md:p-0 "} aria-current="page">Education</Link>
+            </li>
+            <li>
               <Link href="experiences" className={"block py-2 px-3 " + (currentPath === "/experiences" ? "text-white  bg-sky-700  md:text-sky-700 md:dark:text-cyan-400" : "text-black dark:text-white ") +" rounded md:bg-transparent md:p-0 "} aria-current="page">Experiences</Link>
             </li>
             <li>
