@@ -1,4 +1,5 @@
 import Image, { StaticImageData } from "next/image"
+import githubImage from "../../assets/github-dark.svg"
 
 interface ProjectCardProps {
     title: string
@@ -27,10 +28,11 @@ export default function ProjectCard(props: ProjectCardProps) {
                 </div>
             </div>
             <div className="mt-4 flex space-x-4">
-                <a href={props.githubLink} target="_blank" className="bg-gray-900 text-white py-2 px-4 rounded-lg hover:bg-gray-700 dark:bg-gray-600 dark:hover:bg-gray-500">
+                <a href={props.githubLink} target="_blank" className="flex gap-1 bg-gray-900 text-white py-2 px-3 rounded-lg hover:bg-gray-700 dark:bg-gray-600 dark:hover:bg-gray-500">
+                    <Image src={githubImage} alt="github logo" width={23} />
                     GitHub
                 </a>
-                <a href={props.demoLink} target="_blank" className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400">
+                <a href={props.demoLink} target="_blank" className="bg-blue-600 text-white py-2 px-3 rounded-lg hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400">
                     Demo
                 </a>
             </div>
