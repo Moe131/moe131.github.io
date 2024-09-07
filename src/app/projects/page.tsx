@@ -13,7 +13,7 @@ import ProjectCard from "@/components/ProjectCard/page";
 export default function Projects(){
     return (
         <section id="projects" className="bg-gray-100 dark:bg-gray-900 py-12">
-            <h1 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-8">Projects</h1>
+            <h1 className="text-center text-3xl sm:text-4xl font-bold text-left text-gray-900 dark:text-white mb-10">Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-screen-lg mx-auto px-5">
 
             <ProjectCard

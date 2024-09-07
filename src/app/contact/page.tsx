@@ -8,7 +8,7 @@ export default function Contact() {
 
     return (
         <section className=" min-h-screen bg-gray-100 dark:bg-gray-900 py-12 px-4">
-            <h1 className="text-3xl font-semibold text-gray-900 dark:text-white text-center mb-8 lg:text-4xl">Contact Me</h1>
+            <h1 className="text-center text-3xl sm:text-4xl font-bold text-left text-gray-900 dark:text-white mb-10">Contact Me</h1>
             <div className="max-w-screen-md mx-auto text-center mb-5">
                     <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4 lg:text-2xl">
                         Interested in working together?

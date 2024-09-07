@@ -3,8 +3,8 @@ import ExperienceCard from "@/components/ExperienceCard/ExperienceCard";
 export default function Experience() {
     return (
         <section id="experience" className="bg-gray-100 dark:bg-gray-900 py-12 px-6">
-            <h1 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">Experiences</h1>
-            <div className="space-y-8 max-w-screen-xl mx-auto">
+            <h1 className="text-center text-3xl sm:text-4xl font-bold text-left text-gray-900 dark:text-white mb-10">Experiences</h1>
+            <div className="space-y-8 max-w-4xl mx-auto">
                 <ExperienceCard
                     title="Full Stack Developer Intern"
                     company="Mondego Research Lab, University of California, Irvine"
