@@ -6,8 +6,9 @@ import crawlerLogo from "../../assets/crawler.jpg"
 import foodDeliveryLogo from "../../assets/food-delivery.png"
 import cryptofolioLogo from "../../assets/cryptofolio-logo.png"
 import playlistDownloaderLogo from "../../assets/playlistDownloader-logo.png"
-import ProjectCard from "@/components/ProjectCard/page";
+import ProjectCard from "@/components/ProjectCard/page"
 import chatAppLogo from "../../assets/liveChatApp.png"
+import speechRefinerImage from "../../assets/speechRefiner.png"
 
 
 
@@ -80,6 +81,15 @@ export default function Projects(){
             demoLink= "https://github.com/Moe131/playlist-downloader"
             description = "This application allows you to download songs from a Spotify playlist by searching and downloading them from YouTube using Selenium and Pytube library."
             />   
+
+            <ProjectCard 
+            image={speechRefinerImage} 
+            title="Speech Refiner Application"
+            technologies={["Python", "GPT-4", "Flask", "HTML", "CSS"]}
+            githubLink="https://github.com/Moe131/speech-refiner"
+            demoLink="https://github.com/Moe131/speech-refiner"
+            description="A Flask application to help improve your English speaking skills. It allows you to record your speech, and then refines it using GPT-4 to provide suggestions for improvement."
+            />
         </div>
     </section>
     )
