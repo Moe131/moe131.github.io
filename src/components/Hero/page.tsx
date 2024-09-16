@@ -23,9 +23,11 @@ export default function Hero() {
                 <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
                     Mohammad Mirzaei
                 </h1>
-                <h2 className="text-2xl md:text-3xl text-sky-600 dark:text-cyan-400">
+                <div className="flex w-max mx-auto md:mx-0 items-center">
+                    <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 text-2xl md:text-3xl text-sky-600 dark:text-cyan-400">
                     Software Developer Intern
-                </h2>
+                    </h2>
+                </div>
                 <div className="flex justify-center md:justify-start space-x-6 mt-4">
                     <a href="https://x.com" target="_blank">
                         <Image className="hidden w-6 h-6 md:w-8 md:h-8 dark:block" src={darktwitterIcon} alt="Twitter icon" />
