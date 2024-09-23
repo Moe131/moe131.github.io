@@ -9,6 +9,7 @@ import playlistDownloaderLogo from "../../assets/playlistDownloader-logo.png"
 import ProjectCard from "@/components/ProjectCard/page"
 import chatAppLogo from "../../assets/liveChatApp.png"
 import speechRefinerImage from "../../assets/speechRefiner.png"
+import snakeGameImage from "../../assets/snake.png"
 
 
 
@@ -90,6 +91,16 @@ export default function Projects(){
             demoLink="https://github.com/Moe131/speech-refiner"
             description="A Flask application to help improve your English speaking skills. It allows you to record your speech, and then refines it using GPT-4 to provide suggestions for improvement."
             />
+
+            <ProjectCard 
+            image={snakeGameImage} 
+            title="Snake Game"
+            technologies={["C++", "ncurses"]}
+            githubLink="https://github.com/Moe131/snake-game"
+            demoLink="https://youtu.be/O3j6S6F8gO0"
+            description="A terminal-based Snake game built using C++ and ncurses. The game features smooth gameplay with dynamic screen rendering, boundary detection, and real-time snake movement."
+            />
+
         </div>
     </section>
     )
