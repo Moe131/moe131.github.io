@@ -15,7 +15,7 @@ export default function Hero() {
     const { theme, setTheme } = useTheme()
 
     return (
-        <section id="hero" className="self-auto flex flex-col md:flex-row items-center justify-center md:gap-14 bg-gray-100 dark:bg-gray-900 p-6 pb-12 md:p-10 lg:p-20">
+        <section id="hero" className="self-auto flex flex-col md:flex-row items-center justify-center md:gap-14 bg-gray-100 dark:bg-gray-900 p-10 md:p-20 lg:pb-24  ">
             <div className="w-56 h-56 md:w-80 md:h-80 md:min-w-72 mb-6 md:mb-0">
                 <Image className="rounded-full object-cover shadow-lg" src={heroImg} alt="Mohammad Mirzaei Profile Picture" />
              </div>

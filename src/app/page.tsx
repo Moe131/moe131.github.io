@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 export default function Home() {
 
   return (
-    <main className="min-h-screen bg-gray-100 border-gray-200 dark:bg-gray-900">
+    <main className="lg:max-h-screen bg-gray-100 border-gray-200 dark:bg-gray-900">
       <Hero />
     </main>
   );
