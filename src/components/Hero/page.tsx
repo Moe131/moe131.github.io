@@ -1,6 +1,6 @@
 "use client"
 import React from "react"
-import heroImg from '../../assets/hero-img.jpeg'
+import heroImg from '../../assets/hero.png'
 import lighttwitterIcon from '../../assets/twitter-light.svg'
 import lightgithubIcon from '../../assets/github-light.svg'
 import lightlinkedinIcon from '../../assets/linkedin-light.svg'
