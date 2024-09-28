@@ -1,8 +1,13 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props"
+import Image from "next/image"
+
+
 interface ExperienceCardProps {
     title: string
     company: string
     location: string
     dateRange: string
+    image : string | StaticImport
     responsibilities: string[]
 }
 
@@ -10,21 +15,16 @@ const skills: string[] = ["React", "ReactJS", "React Native", "Next.js", "TypeSc
 
 export default function ExperienceCard(props: ExperienceCardProps) {
     return (
-        <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-full">
-            <div className="flex flex-col md:flex-row justify-between">
+        <div className="text-gray-900 dark:text-white w-full">
+            <li className="flex items-center">
+                <Image src={props.image} alt="UCI Logo" className="w-10 h-10 mr-4" />
                 <div>
-                    <h2 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
-                        {props.title}
-                    </h2>
-                    <p className="sm:text-md text-gray-700 dark:text-gray-400">
-                        {props.company}
-                    </p>
+                    <h2 className="text-md md:text-xl font-semibold"> {props.title}</h2>
+                    <p className="text-sm  md:text-base">{props.company}</p>
+                    <p className="text-sm   md:text-base text-gray-500 dark:text-gray-400"> {props.dateRange} | {props.location}</p>
                 </div>
-                <p className="text-sm text-gray-500 dark:text-gray-400 mt-1 md:mt-0 text-right md:text-left">
-                    {props.dateRange} | {props.location}
-                </p>
-            </div>
-            <ul className="text-sm md:text-base list-disc list-inside mt-4 text-gray-700 dark:text-gray-300 space-y-2">
+            </li>
+            <ul className="ml-6 md:ml-10 text-xs md:text-sm list-disc list-inside mt-4 text-gray-700 dark:text-gray-300 space-y-2">
                 {props.responsibilities.map((responsibility, index) => (
                     <li key={index}>
                         {responsibility.split(" ").map((word, idx) => {
@@ -40,7 +40,10 @@ export default function ExperienceCard(props: ExperienceCardProps) {
                     </li>
                 ))}
             </ul>
+
         </div>
+    
+
 
     )
 }
