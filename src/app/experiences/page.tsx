@@ -11,11 +11,10 @@ export default function Experience() {
                     location="Irvine, CA"
                     dateRange="June 2024 - August 2024"
                     responsibilities={[
-                        "Developed login functionality for the app with Google/GitHub authentication using Next.js , TypeScript , and NextAuth",
-                        "Configured full-stack functionality to store user data and conversations in an SQLite database",
-                        "Utilized LLMs and Retrieval-Augmented Generation to develop specialized AI Immigration and Tax assistants",
-                        "Crawled more than 30,000 IRS website pages and 6,000 USCIS website pages and stored their data",
-                        "Worked on the backend to index documents, generate embeddings, and store them in the vector database using Faiss",
+                        "Developed specialized AI Immigration and Tax assistants using LLMs and Retrieval-Augmented Generation with 92% accuracy in responses.",
+                        "Developed a login functionality for the app using Next.js , TypeScript , and NextAuth used by over 1,000 UCI students",
+                        "Configured full-stack functionality to store user data and conversations in an SQLite database.",
+                        "Crawled and indexed 30,000 IRS and 6,000 USCIS pages, generated embeddings, and stored them in a vector database using Faiss",
                     ]}
                 />
 
@@ -25,11 +24,10 @@ export default function Experience() {
                     location="Remote"
                     dateRange="June 2023 - August 2023"
                     responsibilities={[
-                        "Collaborated with the senior developer to design and implement a PostgreSQL database to handle customer data and order processing.",
-                        "Created a UI admin panel using TypeScript , Next.js , Tailwind to allow management of customer orders",
+                        "Collaborated with the senior developer to design and implement a PostgreSQL database system to handle customer data/orders",
+                        "Created a UI admin panel using Next.js , Tailwind to allow management of customer orders reducing the company’s order processing time by 50%.",
                         "Built API endpoints using Node.js and Express framework to connect the frontend with the database",
                         "Successfully transferred data from 40,000 customers into the new database system",
-                        "The new ordering system reduced the company’s order processing time by 40%."
                     ]}
                 />
 
@@ -39,10 +37,9 @@ export default function Experience() {
                     location="Irvine, CA"
                     dateRange="June 2022 - August 2022"
                     responsibilities={[
-                        "Developed an interactive and responsive website using React JS and JavaScript",
+                        "Developed an interactive and responsive website using JavaScript and React library",
                         "Implemented a real-time cryptocurrency price tracker by integrating different APIs which resulted in a remarkable 60% increase in website traffic in the first month.",
-                        "Collaborated in the UX/UI design process to create interactive and visually appealing user interfaces.",
-                        "Conducted code reviews and provided constructive feedback to team members to maintain code quality and consistency."
+                        "Collaborated in the UX/UI design process to create interactive and visually appealing user interfaces",
                     ]}
                 />
             </div>
