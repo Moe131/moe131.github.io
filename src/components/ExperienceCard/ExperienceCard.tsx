@@ -19,14 +19,14 @@ export default function ExperienceCard(props: ExperienceCardProps) {
             <li className="flex items-center">
                 <Image src={props.image} alt="UCI Logo" className="w-10 h-10 md:w-12 md:h-12 mr-4" />
                 <div>
-                    <h2 className="text-md md:text-xl font-semibold"> {props.title}</h2>
+                    <h2 className="text-lg md:text-xl font-semibold"> {props.title}</h2>
                     <p className="text-sm  md:text-base">{props.company}</p>
                     <p className="text-sm   md:text-base text-gray-500 dark:text-gray-400"> {props.dateRange} | {props.location}</p>
                 </div>
             </li>
-            <div className="mt-4">
+            <div className="mt-3 ml-14 md:ml-16">
             <p className="my-2 sm:text-md text-gray-900 dark:text-white font-semibold">Responsibilities:</p>
-            <ul className="text-sm list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+            <ul className="text-sm list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
                 {props.responsibilities.map((responsibility, index) => (
                     <li key={index}>
                         {responsibility.split(" ").map((word, idx) => {

@@ -7,7 +7,7 @@ export default function Education() {
     return (
         <section id="experience" className="bg-gray-100 dark:bg-gray-900 py-12 px-6">
             <h1 className="w-full text-center text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-12">Education</h1>
-            <div className="max-w-5xl mx-auto space-y-8 sm:space-y-10">
+            <div className="max-w-5xl mx-auto space-y-12 sm:space-y-10">
                 {/* Bachelor's Degree */}
                 <div className=" rounded-lg  duration-300 w-full">
                     <div className="pb-4 sm:pb-6">
@@ -19,7 +19,7 @@ export default function Education() {
                                     className="w-10 h-10 md:w-12 md:h-12 mr-4"
                                 />
                                 <div>
-                                    <h2 className="text-md md:text-xl font-bold text-gray-900 dark:text-white">Bachelor of Computer Science</h2>
+                                    <h2 className="text-lg md:text-xl font-bold text-gray-900 dark:text-white">Bachelor of Computer Science</h2>
                                     <p className="text-sm  md:text-base text-gray-700 dark:text-gray-400">University of California, Irvine</p>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@ export default function Education() {
                                 <p className="text-sm  md:text-base text-gray-500 dark:text-gray-400 mt-1 md:mt-0 text-right md:text-left">September 2023 - June 2025 | Irvine, CA</p>
                             </div>
                         </div>
-                        <div className="mt-4">
+                        <div className="mt-3 md:ml-16">
                             <p className="sm:text-md text-gray-700 dark:text-gray-300"><strong>GPA:</strong> 3.97</p>
                             <p className="my-2 sm:text-md text-gray-900 dark:text-white font-semibold">Relevant Courses:</p>
                             <ul className="list-disc list-inside text-sm text-gray-700 dark:text-gray-300 space-y-1">
@@ -57,7 +57,7 @@ export default function Education() {
                                     className="w-10 h-10 md:w-12 md:h-12 mr-4 rounded-full"
                                 />
                                 <div>
-                                    <h2 className="text-md md:text-xl font-bold text-gray-900 dark:text-white">Associate of Science</h2>
+                                    <h2 className="text-lg md:text-xl font-bold text-gray-900 dark:text-white">Associate of Science</h2>
                                     <p className="text-sm  md:text-base text-gray-700 dark:text-gray-400">Irvine Valley College</p>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ export default function Education() {
                                 <p className="text-sm  md:text-base text-gray-500 dark:text-gray-400 mt-1 md:mt-0 text-right md:text-left">September 2020 - June 2023 | Irvine, CA</p>
                             </div>
                         </div>
-                        <div className="mt-4">
+                        <div className="mt-3 md:ml-16 ">
                             <p className="sm:text-md text-gray-700 dark:text-gray-300"><strong>GPA:</strong> 4.00</p>
                             <p className="my-2 sm:text-md text-gray-900 dark:text-white font-semibold">Relevant Courses:</p>
                             <ul className="list-disc list-inside text-sm text-gray-700 dark:text-gray-300 space-y-1">
