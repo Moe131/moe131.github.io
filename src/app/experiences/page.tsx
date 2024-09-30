@@ -36,18 +36,6 @@ export default function Experience() {
                     ]}
                 />
 
-                <ExperienceCard
-                    title="Website Developer"
-                    company="Tournex Crypto Project"
-                    location="Irvine, CA"
-                    dateRange="June 2022 - August 2022"
-                    image= {company}
-                    responsibilities={[
-                        "Developed an interactive and responsive website using JavaScript and React library",
-                        "Implemented a real-time cryptocurrency price tracker by integrating different APIs which resulted in a remarkable 60% increase in website traffic in the first month.",
-                        "Collaborated in the UX/UI design process to create interactive and visually appealing user interfaces",
-                    ]}
-                />
             </div>
         </section>
     )

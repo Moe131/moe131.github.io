@@ -31,15 +31,6 @@ export default function HomeGrid() {
         </div>
       </li>
 
-        {/* Experience 3 */}
-        <li className="flex items-center">
-        <Image src={company} alt="UCI Logo" className="w-8 h-8 mr-4" />
-        <div>
-          <h2 className="text-md md:text-lg font-semibold">Website Developer</h2>
-          <p className="text-sm ">Tournex Crypto Project</p>
-          <p className="text-sm text-gray-500 dark:text-gray-400">June 2022 - August 2022</p>
-        </div>
-      </li>
     </ul>
     <a className="my-4 underline text-sky-600 dark:text-cyan-400" href="/experiences"> View more details</a>
   </div>
