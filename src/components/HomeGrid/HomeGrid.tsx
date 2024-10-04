@@ -45,7 +45,7 @@ export default function HomeGrid() {
         <div>
           <h2 className="text-md md:text-lg font-semibold">Bachelor of Computer Science</h2>
           <p className="text-sm ">University of California, Irvine</p>
-          <p className="text-sm md:text-md text-gray-500 dark:text-gray-400">2023 - Present</p>
+          <p className="text-sm md:text-md text-gray-500 dark:text-gray-400">2023 - 2025</p>
         </div>
       </li>
       <li className="flex items-center">

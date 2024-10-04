@@ -41,6 +41,9 @@ export default function Education() {
                                 <li>Intro to Data Management (COMPSCI 122A)</li>
                                 <li>Data Structures Implementation and Analysis (I&C SCI 46)</li>
                                 <li>Software Testing and Quality Assurance (IN4MATX 115)</li>
+                                <li>Project in Databases and Web Applications (COMPSCI 122B)</li>
+                                <li>Principles in System Design (I&C SCI 45C)</li>
+                                <li>Machine Learning and Data-Mining(COMPSCI 178)</li>
                             </ul>
                         </div>
                     </div>
