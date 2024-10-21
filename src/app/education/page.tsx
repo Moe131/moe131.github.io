@@ -24,7 +24,7 @@ export default function Education() {
                                 </div>
                             </div>
                             <div className="mt-2 sm:mt-0 sm:text-right">
-                                <p className="text-sm  md:text-base text-gray-500 dark:text-gray-400 mt-1 md:mt-0 text-right md:text-left">September 2023 - June 2025 | Irvine, CA</p>
+                                <p className="text-sm  md:text-base text-gray-500 dark:text-gray-400 mt-1 md:mt-0 text-right md:text-left">September 2023 -  Present | Irvine, CA</p>
                             </div>
                         </div>
                         <div className="mt-3 md:ml-16">
