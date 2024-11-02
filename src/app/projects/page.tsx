@@ -10,6 +10,7 @@ import ProjectCard from "@/components/ProjectCard/page"
 import chatAppLogo from "../../assets/liveChatApp.png"
 import speechRefinerImage from "../../assets/speechRefiner.png"
 import snakeGameImage from "../../assets/snake.png"
+import fabflix from "../../assets/fabflix.png"
 
 
 
@@ -26,6 +27,15 @@ export default function Projects(){
             githubLink= "https://github.com/Moe131/food-delivery-app"
             demoLink= "https://youtube.com/shorts/ZQD9tCYyF9c?feature=shared"
             description = "A React Native full stack application designed to help users to sign up, find nearby restaurants and place food delivery or pick-up orders."
+            />
+
+            <ProjectCard
+            image={fabflix} 
+            title="FabFlix Application"
+            technologies= {["Java", "Javascript","MySQL", "AWS EC2", "Tomcat", "Maven","HTML/CSS", "Javascript", "Kubernetes"]}
+            githubLink= "https://youtu.be/kpHTsJJ4Umo?feature=shared"
+            demoLink= "https://youtu.be/kpHTsJJ4Umo?feature=shared"
+            description = "A comprehensive movie purchasing web app with a responsive UI, Java API, and MySQL databae, deployed on AWS EC2 with Kubernetes"
             />
 
 
