@@ -11,6 +11,7 @@ import chatAppLogo from "../../assets/liveChatApp.png"
 import speechRefinerImage from "../../assets/speechRefiner.png"
 import snakeGameImage from "../../assets/snake.png"
 import fabflix from "../../assets/fabflix.png"
+import shell from "../../assets/shell.png"
 
 
 
@@ -32,7 +33,7 @@ export default function Projects(){
             <ProjectCard
             image={fabflix} 
             title="FabFlix Application"
-            technologies= {["Java", "Javascript","MySQL", "AWS EC2", "Tomcat", "Maven","HTML/CSS", "Javascript", "Kubernetes"]}
+            technologies= {["Java", "Javascript","MySQL", "AWS EC2", "Tomcat", "Maven","HTML/CSS", "Linux", "Kubernetes"]}
             githubLink= "https://youtu.be/kpHTsJJ4Umo?feature=shared"
             demoLink= "https://youtu.be/kpHTsJJ4Umo?feature=shared"
             description = "A comprehensive movie purchasing web app with a responsive UI, Java API, and MySQL databae, deployed on AWS EC2 with Kubernetes"
@@ -109,6 +110,15 @@ export default function Projects(){
             githubLink="https://github.com/Moe131/snake-game"
             demoLink="https://youtu.be/O3j6S6F8gO0"
             description="A terminal-based Snake game built using C++ and ncurses. The game features smooth gameplay with dynamic screen rendering, boundary detection, and real-time snake movement."
+            />
+
+            <ProjectCard 
+            image={shell} 
+            title="Custom Shell in C"
+            technologies={["C", "Makefile", "Linux", "processes","signal handling"]}
+            githubLink="https://github.com/Moe131/bash-shell"
+            demoLink="https://github.com/Moe131/bash-shell"
+            description="Developed a Bash-like shell in C to accept commands and manage background and foreground processes, incorporating dynamic memory allocation, signal handling, and process control."
             />
 
         </div>
