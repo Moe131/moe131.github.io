@@ -25,7 +25,7 @@ export default function Hero() {
                 </h1>
                 <div className="flex w-max mx-auto md:mx-0 items-center">
                     <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 text-2xl md:text-3xl text-sky-600 dark:text-cyan-400">
-                    Software Developer Intern
+                    Software Developer
                     </h2>
                 </div>
                 <div className="flex justify-center md:justify-start space-x-6 mt-4">
@@ -46,9 +46,8 @@ export default function Hero() {
                 </div>
                 <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-">
                 
-                I am Mohammad Mirzaei, a dedicated Computer Science student at the University of California, Irvine, 
-                with a strong track record of academic achievements. With over 8 years of coding experience, 
-                and having gained valuable experience through various internships and projects, I&apos;m ready to work 
+                I am Mohammad Mirzaei, a dedicated Computer Science student at the University of California, Irvine.  
+                I enjoy coding and problem-solving and I have experience developing full-stack applications, designing scalable backend systems, and working with machine learning and data engineering. I&apos;m ready to work 
                 on exciting opportunities. Feel free to <Link className="underline text-sky-600 dark:text-cyan-400" href="/contact">contact me</Link> for collaboration!
 
                 </p>

@@ -24,11 +24,11 @@ export default function Education() {
                                 </div>
                             </div>
                             <div className="mt-2 sm:mt-0 sm:text-right">
-                                <p className="text-sm  md:text-base text-gray-500 dark:text-gray-400 mt-1 md:mt-0 text-right md:text-left">September 2023 -  Present | Irvine, CA</p>
+                                <p className="text-sm  md:text-base text-gray-500 dark:text-gray-400 mt-1 md:mt-0 text-right md:text-left">September 2023 -  June 2025 | Irvine, CA</p>
                             </div>
                         </div>
                         <div className="mt-3 md:ml-16">
-                            <p className="sm:text-md text-gray-700 dark:text-gray-300"><strong>GPA:</strong> 3.97</p>
+                            <p className="sm:text-md text-gray-700 dark:text-gray-300"><strong>GPA:</strong> 3.86</p>
                             <p className="my-2 sm:text-md text-gray-900 dark:text-white font-semibold">Relevant Courses:</p>
                             <ul className="list-disc list-inside text-sm text-gray-700 dark:text-gray-300 space-y-1">
                                 <li>Intermediate Programming (I&C SCI 33)</li>
