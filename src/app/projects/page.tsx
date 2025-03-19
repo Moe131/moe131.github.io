@@ -12,6 +12,7 @@ import speechRefinerImage from "../../assets/speechRefiner.png"
 import snakeGameImage from "../../assets/snake.png"
 import fabflix from "../../assets/fabflix.png"
 import shell from "../../assets/shell.png"
+import ionicAppLogo from "../../assets/ionic-app.png"
 
 
 
@@ -39,13 +40,12 @@ export default function Projects(){
             description = "A comprehensive movie purchasing web app with a responsive UI, Java API, and MySQL databae, deployed on AWS EC2 with Kubernetes"
             />
 
-
             <ProjectCard 
             image={cryptofolioLogo} 
             title="CryptoFolio Web Application"
             technologies= {["React", "AWS Amplify", "Javascript" , "DynamoDB", "REST API"]}
             githubLink= "https://github.com/Moe131/cryptofolio"
-            demoLink= "https://main.d2pujeh9fcxm5.amplifyapp.com/"
+            demoLink= "https://www.youtube.com/watch?v=BIGJdKPyLIU"
             description = "A ReactJS full-stack web application that allows users to sign up, track the current prices of various cryptocurrencies, and create and edit custom watchlists."
             />
 
@@ -56,6 +56,15 @@ export default function Projects(){
             githubLink="https://github.com/Moe131/realtime_chat_app"  
             demoLink="https://youtu.be/MrMaQgtBnpE?si=oYHOOoufxOskiMuv"  
             description="A real-time chat application built with Next.js and TypeScript. Users can log in using Google authentication, add friends and chat with them in real-time"
+            />
+
+            <ProjectCard 
+            image={ionicAppLogo} 
+            title="Ionic Sleep Tracker App"
+            technologies= {["Ionic", "TypeScript", "HTML", "CSS"]}
+            githubLink= "https://github.com/Moe131/a4-sleeptracker-a4_moe"
+            demoLink= "https://youtu.be/YqzJM3buHRs"
+            description = "A mobile application designed to help users track and improve their sleep patterns. Built with Ionic and TypeScrip."
             />
 
             <ProjectCard 
